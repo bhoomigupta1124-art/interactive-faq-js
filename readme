@@ -1,0 +1,38 @@
+# Interactive FAQ Webpage (OOP in JavaScript)
+
+## 📌 Project Description
+
+This project is an interactive FAQ webpage where users can click on questions to view or hide answers. It is built using HTML, CSS, and JavaScript with Object-Oriented Programming concepts.
+
+## 🚀 Features
+
+* Toggle answers on click
+* Smooth expand/collapse animation
+* Dynamic rendering using JavaScript
+* OOP-based structure using class `QAItem`
+* Clean and responsive UI
+
+## 🧠 Concepts Used
+
+* DOM Manipulation
+* Event Handling
+* JavaScript Classes (OOP)
+* CSS Transitions
+* Dynamic Content Rendering
+
+## 📂 Project Structure
+
+* `index.html` → Structure of webpage
+* `style.css` → Styling and animations
+* `script.js` → Logic using OOP
+
+## ⚙️ How It Works
+
+* Each FAQ item is created using a `QAItem` class
+* Questions are clickable
+* Clicking toggles visibility of answers
+* Icons (+ / -) update dynamically
+
+## 📌 Conclusion
+
+This project demonstrates the use of Object-Oriented Programming in JavaScript along with interactive UI design.
