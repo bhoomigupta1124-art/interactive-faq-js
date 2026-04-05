@@ -1,0 +1,74 @@
+/* Basic Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+}
+
+/* FAQ Container */
+#faq-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Individual FAQ item */
+.qa-item {
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Question styling */
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Icon spacing improved */
+.icon {
+    margin-left: 15px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate icon when active */
+.qa-item.active .icon {
+    transform: rotate(180deg);
+}
+
+/* Answer (hidden initially) */
+.answer {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease;
+}
+
+/* Answer visible */
+.answer-content {
+    padding-top: 10px;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .qa-item {
+        padding: 12px;
+    }
+
+    .question {
+        font-size: 14px;
+    }
+}
